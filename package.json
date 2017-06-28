@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "watch": "grunt watch"
+    "mongo": "mongod --config db/mongo.conf"
   },
   "author": "Junaid Farooq",
   "license": "ISC",
@@ -14,7 +14,7 @@
     "ejs": "^0.8.3",
     "express": "^3.1.0",
     "moment": "^2.0.0",
-    "mongoose": "^4.11.0",
+    "mongoose": "^3.6.2",
     "underscore": "^1.4.4"
   },
   "devDependencies": {
